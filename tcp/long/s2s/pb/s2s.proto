@@ -1,0 +1,33 @@
+syntax="proto3";
+option go_package="/.";
+package pb;
+
+//
+message Base{
+    string from = 1;
+	string to = 2;
+	uint64 eventID=3;
+}
+
+message CommonS2S{
+    Base base = 1;
+    uint64 key = 2;
+    bytes message=3;
+}
+
+message SyncResult{
+    Base base = 1;
+    uint32 code = 2;
+    string message=3;
+    bytes result=4;
+}
+
+message StarModel{
+    Base base = 1;
+	string uid = 2;
+}
+
+message StopModel{
+    Base base = 1;
+}
+

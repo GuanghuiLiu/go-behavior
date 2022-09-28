@@ -1,0 +1,33 @@
+syntax="proto3";
+option go_package="/.";
+package pb;
+
+//
+
+message Error{
+    uint32 code=1;
+    string msg=2;
+}
+
+//message GetNode{
+//    string uid=1;
+//    bool isRepair=2;
+//}
+
+message Register{
+	string name=1;
+	string password=2;
+	string IDNumber=3;
+}
+
+message GetNode{
+	string name=1; //user name
+	string password=2;
+	bool isRepair=3;
+}
+
+
+message NodeInfo{
+    string addr=1;
+	// string name=2;//node name
+}

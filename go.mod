@@ -1,4 +1,4 @@
-module github.com/GuanghuiLiu/behavior
+module github.com/GuanghuiLiu/go-behavior
 
 go 1.18
 

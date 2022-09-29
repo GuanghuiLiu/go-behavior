@@ -123,3 +123,4 @@ auth认证，由长链接完成，一次验证，终身（长链接）有效
 - version 动态更新process
 
 - CONFIG、LOG
+- s2s部分多加几个连接池，做并行传输

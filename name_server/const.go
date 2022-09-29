@@ -4,7 +4,7 @@ const (
 	IPVersion string = "tcp4"
 	// MaxConn   uint64 = 1000000
 )
-const RedisAddr = "81.70.198.111:63790"
+const RedisAddr = "127.0.0.1:6379"
 const (
 	UserCenter string = "user_center"
 	// MaxConn   uint64 = 1000000

@@ -4,7 +4,7 @@ package model
 const (
 	IPVersion string = "tcp4"
 )
-const RedisAddr = "81.70.198.111:63790"
+const RedisAddr = "127.0.0.1:6379"
 
 // default value
 const (
